@@ -10,6 +10,6 @@ class GithubWebhooksContriller extends Controller
 
     public function push()
     {
-        return "It ok";
+       return "OK";
     }
 }
