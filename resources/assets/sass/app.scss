@@ -117,6 +117,7 @@ body {
     }
 }
 /* Topic Index Page */
+
 .topics-index-page, .categories-show-page {
     .topic-list {
         .nav > li > a {
@@ -146,3 +147,5 @@ body {
         }
     }
 }
+
+@import "topic_body";
