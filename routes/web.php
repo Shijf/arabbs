@@ -22,4 +22,4 @@ Route::resource('topics', 'TopicsController', ['only' => ['index', 'show', 'crea
 
 Route::resource('categories', 'CategoriesController', ['only' => ['show']]);
 
-Route::any('postrecive','GithubWebhooksContriller@push');
+//Route::any('postrecive','GithubWebhooksContriller@push');
