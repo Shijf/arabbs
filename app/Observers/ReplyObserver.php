@@ -29,7 +29,7 @@ class ReplyObserver
         //
     }
 
-    public function deleted(Reply $reply)
+    public function deleting(Reply $reply)
     {
         $reply->topic->decrement('reply_count', 1);
     }
